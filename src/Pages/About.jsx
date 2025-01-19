@@ -161,7 +161,7 @@ const AboutPage = () => {
       color: "from-[#6366f1] to-[#a855f7]",
       value: totalProjects,
       label: "Total Projects",
-      description: "Innovative web solutions crafted",
+      description: "Innovative project crafted",
       animation: "fade-right",
     },
     {
@@ -169,14 +169,14 @@ const AboutPage = () => {
       color: "from-[#a855f7] to-[#6366f1]",
       value: totalCertificates,
       label: "Certificates",
-      description: "Professional skills validated",
+      description: "Professional skills acquired",
       animation: "fade-up",
     },
     {
       icon: Globe,
       color: "from-[#6366f1] to-[#a855f7]",
       value: YearExperience,
-      label: "Years of Experience",
+      label: "Years old",
       description: "Continuous learning journey",
       animation: "fade-left",
     },
@@ -221,7 +221,7 @@ const AboutPage = () => {
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
-              <a href="https://drive.google.com/drive/folders/1BOm51Grsabb3zj6Xk27K-iRwI1zITcpo" className="w-full lg:w-auto">
+              <a href="/#" className="w-full lg:w-auto">
               <button 
                 data-aos="fade-up"
                 data-aos-duration="800"
